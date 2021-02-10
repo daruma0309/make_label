@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/make_label.dir/src/main.cpp.o  -o make_label -rdynamic 

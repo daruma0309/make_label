@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/myUtil.h
+iostream
+-
+ctype.h
+-
+algorithm
+-
+iterator
+-
+vector
+-
+ctime
+-
+sstream
+-
+fstream
+-
+string
+-
+cmath
+-
+
+/home/takahashi/Cpp/make_label/src/main.cpp
+myUtil.h
+/home/takahashi/Cpp/make_label/src/myUtil.h
+
